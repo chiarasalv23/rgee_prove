@@ -25,6 +25,7 @@ vis_nat_col <- list(
                       )
                       
 # ndvi palette!
+# translated from JavaScript --->   var ndvi_plt = {min: -1, max: 1, palette: ['ff0000', 'ffbd00', 'faff00', '3eff00', '00c218']};
 ndvi_plt <- list(
                   min = -1,
                   max = 1,
