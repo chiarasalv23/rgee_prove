@@ -1,5 +1,12 @@
 # rgee x rasterdiv
 
+# step 0: libraries
+library(rgee)
+library(rgeeExtra)
+library(raster)
+library(rasterdiv)
+library(stars)
+
 # step 1: load ee.Image()
 img <- ee$Image("LANDSAT/LC08/C01/T1_SR/LC08_038029_20180810")
 
